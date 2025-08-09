@@ -1,0 +1,63 @@
+# AgroFlow Central API - Test Endpoints
+# Puedes usar este archivo con extensiones como REST Client en VS Code
+
+### Variables
+@baseUrl = http://localhost:5000/api
+
+### 1. Crear un nuevo agricultor
+POST {{baseUrl}}/agricultoras
+Content-Type: application/json
+
+{
+  "nombre": "Juan Pérez",
+  "finca": "La Esperanza",
+  "ubicacion": "Valle del Cauca, Colombia",
+  "correo": "juan.perez@example.com"
+}
+
+### 2. Obtener todos los agricultores
+GET {{baseUrl}}/agricultoras
+
+### 3. Obtener agricultor por ID (reemplazar con ID real)
+GET {{baseUrl}}/agricultoras/00000000-0000-0000-0000-000000000000
+
+### 4. Crear una nueva cosecha (reemplazar AgricultorId con ID real)
+POST {{baseUrl}}/cosechas
+Content-Type: application/json
+
+{
+  "agricultorId": "00000000-0000-0000-0000-000000000000",
+  "producto": "Café Arábica",
+  "toneladas": 2.5
+}
+
+### 5. Obtener todas las cosechas
+GET {{baseUrl}}/cosechas
+
+### 6. Obtener cosechas por agricultor (reemplazar con ID real)
+GET {{baseUrl}}/cosechas/agricultor/00000000-0000-0000-0000-000000000000
+
+### 7. Actualizar estado de cosecha (reemplazar con ID real)
+PUT {{baseUrl}}/cosechas/00000000-0000-0000-0000-000000000000/estado
+Content-Type: application/json
+
+"EN_PROCESO"
+
+### 8. Actualizar agricultor (reemplazar con ID real)
+PUT {{baseUrl}}/agricultoras/00000000-0000-0000-0000-000000000000
+Content-Type: application/json
+
+{
+  "agricultorId": "00000000-0000-0000-0000-000000000000",
+  "nombre": "Juan Pérez Actualizado",
+  "finca": "La Esperanza Grande",
+  "ubicacion": "Valle del Cauca, Colombia",
+  "correo": "juan.perez.nuevo@example.com"
+}
+
+### 9. Swagger UI (abrir en navegador)
+# GET http://localhost:5000
+
+### 10. Health Check
+GET {{baseUrl}}/health
+

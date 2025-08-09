@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroFlow - Sistema de Gestión Agrícola</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-seedling"></i>
+                    <h1>AgroFlow</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#dashboard" class="nav-link active" data-section="dashboard">
+                        <i class="fas fa-chart-line"></i> Dashboard
+                    </a>
+                    <a href="#agricultores" class="nav-link" data-section="agricultores">
+                        <i class="fas fa-users"></i> Agricultores
+                    </a>
+                    <a href="#cosechas" class="nav-link" data-section="cosechas">
+                        <i class="fas fa-wheat-awn"></i> Cosechas
+                    </a>
+                    <a href="#inventario" class="nav-link" data-section="inventario">
+                        <i class="fas fa-boxes"></i> Inventario
+                    </a>
+                    <a href="#facturas" class="nav-link" data-section="facturas">
+                        <i class="fas fa-file-invoice"></i> Facturas
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-line"></i> Dashboard</h2>
+                    <p>Resumen general del sistema AgroFlow</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="total-agricultores">0</h3>
+                            <p>Agricultores Registrados</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-wheat-awn"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="total-cosechas">0</h3>
+                            <p>Cosechas Registradas</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="total-insumos">0</h3>
+                            <p>Insumos en Stock</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="total-facturas">0</h3>
+                            <p>Facturas Generadas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+                    <div class="dashboard-card">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Insumos con Stock Bajo</h3>
+                        <div id="stock-bajo-list" class="list-container">
+                            <p class="loading">Cargando...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-card">
+                        <h3><i class="fas fa-clock"></i> Cosechas Recientes</h3>
+                        <div id="cosechas-recientes-list" class="list-container">
+                            <p class="loading">Cargando...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Agricultores Section -->
+            <section id="agricultores" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-users"></i> Gestión de Agricultores</h2>
+                    <button class="btn btn-primary" onclick="showAddAgricultorModal()">
+                        <i class="fas fa-plus"></i> Nuevo Agricultor
+                    </button>
+                </div>
+                
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Finca</th>
+                                <th>Ubicación</th>
+                                <th>Correo</th>
+                                <th>Fecha Registro</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="agricultores-table">
+                            <tr>
+                                <td colspan="6" class="loading">Cargando agricultores...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Cosechas Section -->
+            <section id="cosechas" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-wheat-awn"></i> Gestión de Cosechas</h2>
+                    <button class="btn btn-primary" onclick="showAddCosechaModal()">
+                        <i class="fas fa-plus"></i> Nueva Cosecha
+                    </button>
+                </div>
+                
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Agricultor</th>
+                                <th>Producto</th>
+                                <th>Toneladas</th>
+                                <th>Estado</th>
+                                <th>Fecha</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cosechas-table">
+                            <tr>
+                                <td colspan="6" class="loading">Cargando cosechas...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Inventario Section -->
+            <section id="inventario" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-boxes"></i> Gestión de Inventario</h2>
+                    <button class="btn btn-primary" onclick="showAddInsumoModal()">
+                        <i class="fas fa-plus"></i> Nuevo Insumo
+                    </button>
+                </div>
+                
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Stock</th>
+                                <th>Unidad</th>
+                                <th>Categoría</th>
+                                <th>Última Actualización</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="inventario-table">
+                            <tr>
+                                <td colspan="6" class="loading">Cargando inventario...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Facturas Section -->
+            <section id="facturas" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-file-invoice"></i> Gestión de Facturas</h2>
+                </div>
+                
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID Factura</th>
+                                <th>Agricultor</th>
+                                <th>Producto</th>
+                                <th>Total</th>
+                                <th>Estado</th>
+                                <th>Fecha</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="facturas-table">
+                            <tr>
+                                <td colspan="7" class="loading">Cargando facturas...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="modal-overlay">
+        <!-- Agricultor Modal -->
+        <div id="agricultor-modal" class="modal">
+            <div class="modal-header">
+                <h3 id="agricultor-modal-title">Nuevo Agricultor</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="agricultor-form" class="modal-body">
+                <div class="form-group">
+                    <label for="agricultor-nombre">Nombre *</label>
+                    <input type="text" id="agricultor-nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="agricultor-finca">Finca *</label>
+                    <input type="text" id="agricultor-finca" name="finca" required>
+                </div>
+                <div class="form-group">
+                    <label for="agricultor-ubicacion">Ubicación *</label>
+                    <input type="text" id="agricultor-ubicacion" name="ubicacion" required>
+                </div>
+                <div class="form-group">
+                    <label for="agricultor-correo">Correo *</label>
+                    <input type="email" id="agricultor-correo" name="correo" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Cosecha Modal -->
+        <div id="cosecha-modal" class="modal">
+            <div class="modal-header">
+                <h3 id="cosecha-modal-title">Nueva Cosecha</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="cosecha-form" class="modal-body">
+                <div class="form-group">
+                    <label for="cosecha-agricultor">Agricultor *</label>
+                    <select id="cosecha-agricultor" name="agricultorId" required>
+                        <option value="">Seleccionar agricultor...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="cosecha-producto">Producto *</label>
+                    <select id="cosecha-producto" name="producto" required>
+                        <option value="">Seleccionar producto...</option>
+                        <option value="ARROZ">Arroz</option>
+                        <option value="MAIZ">Maíz</option>
+                        <option value="SOYA">Soya</option>
+                        <option value="CAFE">Café</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="cosecha-toneladas">Toneladas *</label>
+                    <input type="number" id="cosecha-toneladas" name="toneladas" step="0.01" min="0.01" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Insumo Modal -->
+        <div id="insumo-modal" class="modal">
+            <div class="modal-header">
+                <h3 id="insumo-modal-title">Nuevo Insumo</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="insumo-form" class="modal-body">
+                <div class="form-group">
+                    <label for="insumo-nombre">Nombre *</label>
+                    <input type="text" id="insumo-nombre" name="nombreInsumo" required>
+                </div>
+                <div class="form-group">
+                    <label for="insumo-stock">Stock *</label>
+                    <input type="number" id="insumo-stock" name="stock" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="insumo-unidad">Unidad de Medida *</label>
+                    <select id="insumo-unidad" name="unidadMedida" required>
+                        <option value="kg">Kilogramos (kg)</option>
+                        <option value="L">Litros (L)</option>
+                        <option value="ton">Toneladas (ton)</option>
+                        <option value="unidad">Unidad</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="insumo-categoria">Categoría</label>
+                    <select id="insumo-categoria" name="categoria">
+                        <option value="">Seleccionar categoría...</option>
+                        <option value="Semillas">Semillas</option>
+                        <option value="Fertilizantes">Fertilizantes</option>
+                        <option value="Pesticidas">Pesticidas</option>
+                        <option value="Herramientas">Herramientas</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

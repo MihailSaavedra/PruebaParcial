@@ -1,0 +1,47 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:14
+    container_name: postgres_db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=agroflow_central
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  mysql:
+    image: mysql:8
+    container_name: mysql_db
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=agroflow_inventario
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  mariadb:
+    image: mariadb:10.11
+    container_name: mariadb_db
+    ports:
+      - "3307:3306" # Puerto 3307 para no chocar con MySQL
+    environment:
+      - MARIADB_ROOT_PASSWORD=admin
+      - MARIADB_DATABASE=agroflow_facturacion
+    volumes:
+      - mariadb_data:/var/lib/mariadb
+
+  rabbitmq:
+    image: rabbitmq:3.12-management
+    container_name: rabbitmq_broker
+    ports:
+      - "5672:5672"  # Puerto AMQP
+      - "15672:15672" # Interfaz web de gestión
+
+volumes:
+  postgres_data:
+  mysql_data:
+  mariadb_data:

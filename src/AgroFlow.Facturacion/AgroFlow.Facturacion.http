@@ -1,0 +1,6 @@
+@AgroFlow.Facturacion_HostAddress = http://localhost:5098
+
+GET {{AgroFlow.Facturacion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AgroFlow.Gateway/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o3qtLEQhBD\u002BusZunlSxEdNNz74c2SNOBMo8EUGqWUeE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15796"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022o3qtLEQhBD\u002BusZunlSxEdNNz74c2SNOBMo8EUGqWUeE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 02:27:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AgroFlow.Gateway/index.xztqfrndwz.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xztqfrndwz"},{"Name":"integrity","Value":"sha256-o3qtLEQhBD\u002BusZunlSxEdNNz74c2SNOBMo8EUGqWUeE="},{"Name":"label","Value":"_content/AgroFlow.Gateway/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15796"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022o3qtLEQhBD\u002BusZunlSxEdNNz74c2SNOBMo8EUGqWUeE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 02:27:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AgroFlow.Gateway/script.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25592"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 02:27:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AgroFlow.Gateway/script.kwda01c3hc.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kwda01c3hc"},{"Name":"integrity","Value":"sha256-HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA="},{"Name":"label","Value":"_content/AgroFlow.Gateway/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25592"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 02:27:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AgroFlow.Gateway/styles.c5ljcqe6w6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c5ljcqe6w6"},{"Name":"integrity","Value":"sha256-MHrJeCeO/4\u002BeFyfXfUtzSnXeKPAe0lRmsiZszyIdopA="},{"Name":"label","Value":"_content/AgroFlow.Gateway/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10551"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MHrJeCeO/4\u002BeFyfXfUtzSnXeKPAe0lRmsiZszyIdopA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 02:08:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AgroFlow.Gateway/styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MHrJeCeO/4\u002BeFyfXfUtzSnXeKPAe0lRmsiZszyIdopA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10551"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MHrJeCeO/4\u002BeFyfXfUtzSnXeKPAe0lRmsiZszyIdopA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 02:08:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

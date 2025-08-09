@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "RC5lLyQ9V/nBBqid8bIjKXqXxa7QqVDosuKP/K7nrgc=",
+  "Source": "AgroFlow.Gateway",
+  "BasePath": "_content/AgroFlow.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AgroFlow.Gateway\\wwwroot",
+      "Source": "AgroFlow.Gateway",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\",
+      "BasePath": "_content/AgroFlow.Gateway",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\1f7p17noaf-xztqfrndwz.gz",
+      "SourceId": "AgroFlow.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AgroFlow.Gateway",
+      "RelativePath": "index#[.{fingerprint=xztqfrndwz}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "htuw5cgd5u",
+      "Integrity": "BXm+EQyYxsZvQhxJYDsmKT9V6bjZQj6dCcDs2dNiM54=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\js8bf8cpuv-kwda01c3hc.gz",
+      "SourceId": "AgroFlow.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AgroFlow.Gateway",
+      "RelativePath": "script#[.{fingerprint=kwda01c3hc}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yi81w68jf2",
+      "Integrity": "ahkzmNd8QboQl1qDgKnffxqzd5rB9dHq2YwImRkNFNE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\zn9c5cny7b-c5ljcqe6w6.gz",
+      "SourceId": "AgroFlow.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AgroFlow.Gateway",
+      "RelativePath": "styles#[.{fingerprint=c5ljcqe6w6}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ki2vjgwrxk",
+      "Integrity": "fBFLmV/1TnIHkyBoUVaTVWSSzDmXiy0m+RLBnSwM610=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\index.html",
+      "SourceId": "AgroFlow.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\",
+      "BasePath": "_content/AgroFlow.Gateway",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xztqfrndwz",
+      "Integrity": "o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\script.js",
+      "SourceId": "AgroFlow.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\",
+      "BasePath": "_content/AgroFlow.Gateway",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kwda01c3hc",
+      "Integrity": "HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\styles.css",
+      "SourceId": "AgroFlow.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\",
+      "BasePath": "_content/AgroFlow.Gateway",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c5ljcqe6w6",
+      "Integrity": "MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\1f7p17noaf-xztqfrndwz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000460617227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2170"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BXm+EQyYxsZvQhxJYDsmKT9V6bjZQj6dCcDs2dNiM54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\1f7p17noaf-xztqfrndwz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BXm+EQyYxsZvQhxJYDsmKT9V6bjZQj6dCcDs2dNiM54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BXm+EQyYxsZvQhxJYDsmKT9V6bjZQj6dCcDs2dNiM54="
+        }
+      ]
+    },
+    {
+      "Route": "index.xztqfrndwz.html",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\1f7p17noaf-xztqfrndwz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000460617227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2170"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BXm+EQyYxsZvQhxJYDsmKT9V6bjZQj6dCcDs2dNiM54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xztqfrndwz"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE="
+        }
+      ]
+    },
+    {
+      "Route": "index.xztqfrndwz.html",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xztqfrndwz"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3qtLEQhBD+usZunlSxEdNNz74c2SNOBMo8EUGqWUeE="
+        }
+      ]
+    },
+    {
+      "Route": "index.xztqfrndwz.html.gz",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\1f7p17noaf-xztqfrndwz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BXm+EQyYxsZvQhxJYDsmKT9V6bjZQj6dCcDs2dNiM54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xztqfrndwz"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BXm+EQyYxsZvQhxJYDsmKT9V6bjZQj6dCcDs2dNiM54="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\js8bf8cpuv-kwda01c3hc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000192455735"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5195"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahkzmNd8QboQl1qDgKnffxqzd5rB9dHq2YwImRkNFNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA="
+        }
+      ]
+    },
+    {
+      "Route": "script.js.gz",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\js8bf8cpuv-kwda01c3hc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahkzmNd8QboQl1qDgKnffxqzd5rB9dHq2YwImRkNFNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ahkzmNd8QboQl1qDgKnffxqzd5rB9dHq2YwImRkNFNE="
+        }
+      ]
+    },
+    {
+      "Route": "script.kwda01c3hc.js",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\js8bf8cpuv-kwda01c3hc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000192455735"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5195"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahkzmNd8QboQl1qDgKnffxqzd5rB9dHq2YwImRkNFNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kwda01c3hc"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA="
+        }
+      ]
+    },
+    {
+      "Route": "script.kwda01c3hc.js",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kwda01c3hc"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HHdNSfhVwu3wShdwqWgO9BPKzhnI5awaQgRG0Wx3ERA="
+        }
+      ]
+    },
+    {
+      "Route": "script.kwda01c3hc.js.gz",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\js8bf8cpuv-kwda01c3hc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahkzmNd8QboQl1qDgKnffxqzd5rB9dHq2YwImRkNFNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:27:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kwda01c3hc"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ahkzmNd8QboQl1qDgKnffxqzd5rB9dHq2YwImRkNFNE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.c5ljcqe6w6.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\zn9c5cny7b-c5ljcqe6w6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000417885499"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2392"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fBFLmV/1TnIHkyBoUVaTVWSSzDmXiy0m+RLBnSwM610=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5ljcqe6w6"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.c5ljcqe6w6.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5ljcqe6w6"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.c5ljcqe6w6.css.gz",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\zn9c5cny7b-c5ljcqe6w6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fBFLmV/1TnIHkyBoUVaTVWSSzDmXiy0m+RLBnSwM610=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5ljcqe6w6"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fBFLmV/1TnIHkyBoUVaTVWSSzDmXiy0m+RLBnSwM610="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\zn9c5cny7b-c5ljcqe6w6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000417885499"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2392"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fBFLmV/1TnIHkyBoUVaTVWSSzDmXiy0m+RLBnSwM610=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MHrJeCeO/4+eFyfXfUtzSnXeKPAe0lRmsiZszyIdopA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css.gz",
+      "AssetFile": "C:\\Users\\User\\Documents\\Proyectos_ArquitecturaSoftware\\AgroFlow\\src\\AgroFlow.Gateway\\obj\\Debug\\net9.0\\compressed\\zn9c5cny7b-c5ljcqe6w6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fBFLmV/1TnIHkyBoUVaTVWSSzDmXiy0m+RLBnSwM610=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 02:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fBFLmV/1TnIHkyBoUVaTVWSSzDmXiy0m+RLBnSwM610="
+        }
+      ]
+    }
+  ]
+}
